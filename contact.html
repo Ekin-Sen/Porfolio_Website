@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Developer / Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="row">
+        <!--NAV - START-->
+        <div class="col-12 ">
+          <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="index.html"><strong>The Developer</strong></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item px-1">
+                        <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
+                    </li>
+                  <li class="nav-item px-1">
+                    <a class="nav-link text-light" aria-current="page" href="projects.html">Projects</a>
+                  </li>
+                  <li class="nav-item px-1">
+                    <a class="nav-link text-light" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item px-1">
+                    <a class="nav-link text-light" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>     
+        </div>
+        <!--NAV - END-->
+
+        <!--CONTENT - START-->
+        <section class="container mt-3">
+            <article class="row">
+                <div class="col-10 offset-1">
+                    <h3>Contact Me</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cumque magnam deleniti officiis dicta? Eligendi accusantium dolorum corrupti exercitationem aliquid consequatur voluptas!</p>
+                    <div class="col-12 mt-3">
+                        <hr>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <form>
+                            <div class="mb-3">
+                              <label for="name" class="form-label">Your Name</label>
+                              <input type="text" class="form-control" id="InputName" aria-describedby="nameHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="InputEmail1" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text" style="color: white;">We'll never share your email with anyone else.</div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="InputTheme" class="form-label">What About Your Message</label>
+                                <div>
+                                  <select class="text-secondary" id="Theme">
+                                    <option value="project">About My Projects</option>
+                                    <option value="post">About My Posts</option>
+                                    <option value="frontend">About FrontEnd Development</option>
+                                    <option value="other">Other</option>
+                                  </select>
+                                </div>
+                              </div>
+                            <div class="mb-3">
+                              <label for="InputMessage" class="form-label">Your Message</label>
+                              <textarea name="Message" class="form-control" id="TextareaMessage" cols="30" rows="7"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline-light">Send</button>
+                            <button type="reset" class="btn btn-outline-light">Reset</button>
+                          </form>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <hr>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet.</p>
+
+                </div>
+            </article>
+        </section>
+        <!--CONTENT - END-->
+
+
+
+        <div class="col-12 mt-3">
+          <hr>
+        </div>
+        <!--FOOTER - START-->
+        <footer class="row">
+          <h6>Follow me at:</h6>
+          <div class="col-12 mt-2">
+            <div class="social d-flex">
+              <div class="media mx-auto"><a style="color: inherit;" href="#"><i class="fa-brands fa-github fa-2xl"></i></a></div>
+              <div class="media mx-auto"><a style="color: inherit;" href="#"><i class="fa-brands fa-linkedin-in fa-2xl"></i></a></div>
+              <div class="media mx-auto"><a style="color: inherit;" href="#"><i class="fa-brands fa-youtube fa-2xl"></i></a></div>
+              <div class="media mx-auto"><a style="color: inherit;" href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a></div>
+              <div class="media mx-auto"><a style="color: inherit;" href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></div>
+            </div>
+          </div>
+        </footer>
+        <!--FOOTER - END-->
+        <div class="col-12 mt-3">
+          <hr>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
